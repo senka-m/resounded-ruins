@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+	<style type="text/css">
+		#intro_vid {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  min-height: 100%;
+}
+
+body{
+	background-color: black;
+}
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  top: 0;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(avara.woff);
+}
+
+div {
+  font-family: myFirstFont;
+}
+h1{ width: 20vw;
+	font-style: italic;
+	font-size: 78px;
+}
+p {width: 40vw;
+	font-size: 22px;
+    line-height: 1.3;
+}
+
+.container{
+  position: relative;
+  bottom: 2vw;
+  left: 0vw;
+}
+
+.example {
+  width: 15vw;
+  left: 45vw;
+  top: 2vw;
+  position: fixed;
+}
+
+.button {
+  border: none;
+  color: black;
+  font-family: myFirstFont;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+  margin: 3vw 0vw;
+  padding-top: 0.4vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  cursor: pointer;
+  border-radius: 50px; 
+  transition-duration: 0.4s;
+  border: 0.2vw solid #f1f1f1;
+} 
+.button:hover {
+  background-color: transparent;
+  color: white;
+  border: 0.2vw solid #f1f1f1;
+}
+.button1{
+  position: fixed;
+  bottom: 0vw;
+  left: 1vw;
+}
+.button2{
+  position: fixed;
+  bottom: 0vw;
+  left: 12vw;
+}
+.button3{
+  position: fixed;
+  bottom: 0vw;
+  left: 24vw;
+}
+a { text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: white;
+}
+	</style>
+
+</head>
+<body>
+<video autoplay muted loop id="intro_vid">
+  <source src=".mov" type="video/mp4">
+</video>
+<!-- Optional: some overlay text to describe the video -->
+<div class="content">
+  <h1>Danijela</h1>
+  <p>
+x
+
+
+
+<div class="container">
+<button class="button button1"><a href='intro.html'>intro</a></button>
+<button class="button button2"><a href='about.html'>about</a> </button>
+<button class="button button3"><a href='interviews.html'>interviews</a></button>
+  
+</div>
+
+</body>
+</html>
